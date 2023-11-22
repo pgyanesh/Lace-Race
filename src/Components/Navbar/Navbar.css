@@ -1,0 +1,32 @@
+.navbar-section{
+    width: 100%;
+    height: 20vh;
+    margin-top: 3vh;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+}
+.navbarline-First{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+}
+.navbarline-First img{
+    height: 5vh;
+    width: 5.2vw;
+}
+.navbarline-Second{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.navbarline-Second a{
+    text-decoration: none;
+    color: black;
+    font-weight: 150;
+    font-size: 0.7rem;
+}
+.navbarline-Second a:hover{
+    font-weight: 800;
+    transition: 200ms ease-in-out;
+}
