@@ -93,3 +93,4 @@ let allResources = [{
     price:"23,000"
 }
 ]
+export default allResources;

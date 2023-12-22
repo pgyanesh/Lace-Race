@@ -1,0 +1,20 @@
+.homePageItem-container{
+    height: 48vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+.homeItem-img{
+    height: 27vh;
+    width: 16vw;
+}
+.homePageItem-content{
+    font-size: 0.6rem;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,8 +1,14 @@
 import React from 'react'
 import './HomePageItem.css'
-const HomePageItem = () => {
+const HomePageItem = (props) => {
   return (
-    <div>
+    <div className='homePageItem-container'>
+        <img className='homeItem-img' src={props.image} alt='error'/>
+        <div className="homePageItem-content">
+          <p>{props.brand}</p>
+          <h4>{props.name}</h4>
+          <p>{props.price}</p>
+        </div>
       
     </div>
   )
