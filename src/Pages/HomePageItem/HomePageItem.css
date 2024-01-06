@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5vh;
+   
 }
 .homeItem-img{
     height: 27vh;
@@ -17,4 +17,22 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+@media (max-width:800px) {
+    .homePageItem-content{
+        display: none;
+    }
+    .homeItem-img{
+        height: 17vh;
+        width: 33vw;
+    }
+    .homePageItem-container{
+        height: 30vh;
+    width: 34vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
 }

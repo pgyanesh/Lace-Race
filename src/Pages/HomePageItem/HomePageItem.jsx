@@ -7,7 +7,7 @@ const HomePageItem = (props) => {
         <div className="homePageItem-content">
           <p>{props.brand}</p>
           <h4>{props.name}</h4>
-          <p>{props.price}</p>
+          <p>Rs {props.price}</p>
         </div>
       
     </div>

@@ -15,12 +15,14 @@ const Navbar = () => {
       </div>
       
       <div className="navbarline-Second">
+        <div className="navbarLine-SecondInner">
          <a href='/'>FOOTWEAR</a>
         <a href='/'>APPAREL</a>
         <a href='/'>GIRLS</a>
         <a href='/'>BASKETBALL</a>
         <a href='/'>ACCESSORIES</a>
         <a href='/'>ART</a>
+        </div>
       </div>
     </div>
   )

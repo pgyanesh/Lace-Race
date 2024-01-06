@@ -43,16 +43,42 @@
 .navbarline-Second{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 2vh;
+}
+.navbarLine-SecondInner{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
 }
 .navbarline-Second a{
     text-decoration: none;
     color: black;
     font-weight: 150;
-    font-size: 0.7rem;
+    font-size: 0.65rem;
 }
 .navbarline-Second a:hover{
     font-weight: 800;
     transition: 200ms ease-in-out;
+}
+
+@media (max-width:800px) {
+    .navbar-left{
+        width:76vw;
+    }
+    .vegnonveglogo{
+        width: 16vw;
+        height: 4vh
+        
+    }
+    .loginlogo{
+        width: 7vw;
+        height: 4vh;
+    }
+    .navbarline-Second{
+        display: none;
+    }
+    .navbar-section{
+        padding: 0;
+    }
 }
